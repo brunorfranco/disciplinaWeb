@@ -25,3 +25,22 @@ function getInputElements(formId) {
     }
     return form.getElementsByTagName('input');
 }
+
+
+  function init(evt) {
+
+    if ( window.svgDocument == null ) {
+
+      svgDoc = evt.target.ownerDocument;
+
+    }
+
+  }
+  
+  function displayName(name) {
+	  
+	    svgDoc.getElementById('country_name').firstChild.data = name;
+	  
+	  }
+
+
