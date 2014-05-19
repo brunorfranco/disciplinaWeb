@@ -99,7 +99,7 @@ body{
 	float: right;
 	width: 47.3%;
 	text-align: left;
-	background: url(../images/img-sprit2.png) no-repeat;
+	background: url(../images/img-sprit.png) no-repeat;
 	height: 598px;
 	margin-bottom: 1.5em;
 }
@@ -118,13 +118,20 @@ body{
 	width: 180px;
 	height: 53px;
 	display: block;
-	background: url(../images/img-sprit2.png) no-repeat #F2F4F5 -172px -879px;
+	background: url(../images/img-sprit.png) no-repeat #F2F4F5 -172px -879px;
 }
 .info-btns ul li:nth-child(2) a{
 	width: 180px;
-	height: 53px;
+	height: 59px;
 	display: block;
-	background: url(../images/img-sprit2.png) no-repeat #F2F4F5 -172px -826px;
+	background: url(../images/en_generic_rgb_wo_60.png) no-repeat ;
+}
+
+.info-btns ul li:nth-child(3) a{
+	width: 180px;
+	height: 59px;
+	display: block;
+	background: url(../images/logo-windows-phone-8.png) no-repeat ;
 }
 .info-btns{
 	margin-top: 1.3em;
@@ -154,14 +161,14 @@ body{
 	height: 50px;
 	width: 53px;
 	display: block;
-	background: url(../images/img-sprit2.png) no-repeat #F2F4F5 0px -826px;
+	background: url(../images/img-sprit.png) no-repeat #F2F4F5 0px -826px;
 	vertical-align: middle;
 }
 .icon1 span:hover{
 	height: 50px;
 	width: 53px;
 	display: block;
-	background: url(../images/img-sprit2.png) no-repeat #F2F4F5 0px -879px;
+	background: url(../images/img-sprit.png) no-repeat #F2F4F5 0px -879px;
 	vertical-align: middle;
 }
 .icon2{
@@ -182,14 +189,14 @@ body{
 	height: 50px;
 	width: 53px;
 	display: block;
-	background: url(../images/img-sprit2.png) no-repeat #F2F4F5 -102px -827px;
+	background: url(../images/img-sprit.png) no-repeat #F2F4F5 -102px -827px;
 	vertical-align: middle;
 }
 .icon2 span:hover{
 	height: 50px;
 	width: 53px;
 	display: block;
-	background: url(../images/img-sprit2.png) no-repeat #F2F4F5 -102px -880px;
+	background: url(../images/img-sprit.png) no-repeat #F2F4F5 -102px -880px;
 	vertical-align: middle;
 }
 .icon3{
@@ -210,14 +217,14 @@ body{
 	height: 50px;
 	width: 53px;
 	display: block;
-	background: url(../images/img-sprit2.png) no-repeat #F2F4F5 -51px -828px;
+	background: url(../images/img-sprit.png) no-repeat #F2F4F5 -51px -828px;
 	vertical-align: middle;
 }
 .icon3 span:hover{
 	height: 50px;
 	width: 53px;
 	display: block;
-	background: url(../images/img-sprit2.png) no-repeat #F2F4F5 -51px -881px;
+	background: url(../images/img-sprit.png) no-repeat #F2F4F5 -51px -881px;
 	vertical-align: middle;
 }
 .top-grid{
@@ -253,13 +260,13 @@ body{
 	height: 12px;
 	width: 12px;
 	display: inline-block;
-	background: url(../images/img-sprit2.png) no-repeat -9px -814px;
+	background: url(../images/img-sprit.png) no-repeat -9px -814px;
 	vertical-align: middle;
 	margin-left: 3px;
 }
 .btn span:hover{
 	color:#000;
-	background: url(../images/img-sprit2.png) no-repeat -21px -814px;
+	background: url(../images/img-sprit.png) no-repeat -21px -814px;
 }
 .btn:hover{
 	color:#000;
@@ -277,7 +284,7 @@ body{
 	float: left;
 	width: 29%;
 	text-align: right;
-	background: url(../images/img-sprit2.png) no-repeat 63px 0px;
+	background: url(../images/img-sprit.png) no-repeat 63px 0px;
 	height: 598px;
 }
 .mid-grid-top-info{
@@ -396,7 +403,7 @@ body{
 	height: 48px;
 	border: none;
 	text-indent: 100%;
-	background: url(../images/img-sprit2.png) no-repeat 0px -938px;
+	background: url(../images/img-sprit.png) no-repeat 0px -938px;
 }
 #toTopHover {
 	width: 48px;
