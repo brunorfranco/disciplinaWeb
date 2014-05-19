@@ -1,54 +1,142 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
 <head>
-<title>Portal do NotiUFG</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<link href="./css/style.css" rel="stylesheet" type="text/css" />
+	<title>NotiUFG - Portal de Divulgação</title>
+	<link href='css/style.css' rel='stylesheet' type='text/css' />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
 </head>
 <body>
-<div id="Container">
-  <div id="header_"> &nbsp;
-    <ul class="navi">
-      <li><a href="http://www.free-css.com/">Página Principal</a></li>
-      <li><a href="http://www.free-css.com/">Sobre nós</a></li>
-      <li><a href="http://www.free-css.com/">Contato</a></li>
-      <li><a href="http://www.free-css.com/">Galeria de Fotos</a></li>
-      <li><a href="http://www.free-css.com/">Novidades</a></li>
-    </ul>
-  </div>
-  <div id="left_">
-    <h2>Novidades</h2>
-    <p><span>Segunda,</span> dia 12, realizei a criação inicial do portal para divulgação do NotiUFG.</p>
-    <p>&nbsp;</p>
-    <p>Pretendo até o final do mês ter finalizado todo o esboço do portal.</p>
-    <p>&nbsp;</p>
-    <p><a href="http://developer.android.com/guide/topics/ui/notifiers/notifications.html">leia mais</a></p>
-    <p>&nbsp;</p>
-    <p><span>Domingo,</span> dia 18, voltarei a trabalhar no portal e trocarei a imagem principal de cabeçalho. </p>
-    <p>&nbsp;</p>
-  </div>
-  <div id="right_">
-    <h2>Bem vindo ao portal NotiUFG!</h2>
-    <p><span class="style1">NotiUFG</span> é uma ferramenta criada para facilitar a comunicação entre as pessoas envolvidas com a instituição UFG, desde alunos, até professores e servidores. </p>
-    <p>&nbsp;</p>
-    <p>This template is under the <a target="_blank" href="http://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 2.5</a> License. That's mean you can modify the design to suit your needs but you must provided a link back to WebTemplatePortal.com </p>
-    <p>&nbsp;</p>
-    <p>Download more free XHTML templates at WebTemplatePortal.com.</p>
-    <p>&nbsp;</p>
-    <p>Downloads 1000's of premium web templates at our sister site at DeonixDesign.com.</p>
-  </div>
-  <div id="footer1_"> &nbsp;</div>
-  <div id="footer2_">
-    <p>&nbsp;</p>
-    <p>Designed by <a href="http://www.webtemplateportal.com/">WebTemplatePortal.com</a><br />
-      This template is under the <a target="_blank" href="http://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 2.5</a> License.<br />
-      <br />
-      <span>Adipiscing elit sed diam nonummy nibh commodo consequat sit amets. Sorem ipsum dolor sit amet, consectetuer adipiscing.</span></p>
-    <p>&nbsp;</p>
-    <p><a target="_blank" href="http://validator.w3.org/check?uri=referer"> <img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" height="31" width="88" border="0" /></a></p>
-    <p>&nbsp;</p>
-  </div>
-  <div id="footer3_"> &nbsp;</div>
-</div>
+<!---start-wrap---->
+	<!---start-header---->
+	<div class="header">
+	<div class="wrap">
+		<div class="logo">
+			<a href="index.html">Portal do NotiUFG</a>
+		</div>
+		<div class="top-nav">
+			<ul>
+				<li class="active"><a href="#home" class="scroll">NotiUFG</a></li>
+				<li><a href="#features" class="scroll">Características</a></li>
+				<li><a href="#about" class="scroll">Sobre</a></li>
+				<li><a href="#contact" class="scroll">Contato</a></li>
+			</ul>
+		</div>
+		<div class="clear"> </div>
+	</div>
+	<!---//End-header---->
+	</div>
+	<!---start-image-banner---->
+	<div class="img-banner" id="home">
+		<div class="img-banner-info">
+			<h1><span>NotiUFG</span></h1>
+			<h2>Sistema de notificações da UFG</h2>
+			<p>O NotiUFG visa o envio de notificações através de dispositivos móveis entre os integrantes da UFG (alunos, coordenadores de curso, 
+				responsáveis pela biblioteca, pró-reitoria, reitoria e docentes das disciplinas) para que toda essa comunidade
+				possa se comunicar com mais facilidade.</p>
+			<div class="clear"> </div>
+			<div class="info-btns">
+				<ul>
+					<li><a href="http://www.google.com"> </a></li>
+					<li><a href="http://www.google.com"> </a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="img-banner-pic">
+		</div>
+		<div class="clear"> </div>
+	</div>
+
+	<!---//End-image-banner---->
+	<!---start-top-grids----->
+	<div class="top-grids" id="features">
+	<div class="wrap">
+		<div class="top-grid">
+			<a class="icon1" href="#"><span> </span> </a>
+			<h3>Notificações</h3>
+			<p>As notificações podem ser enviadas e recebidas por qualquer um que instalar o aplicativo NotiUFG,<label> mesmo que não seja aluno ou colaborador.</label></p>
+			<a class="btn" href="#">Leia mais<span> </span></a>
+		</div>
+		<div class="top-grid">
+			<a class="icon2" href="#"><span> </span> </a>
+			<h3>Backup dos dados</h3>
+			<p>Caso um usuário queira salvar suas preferências de configurações relacionadas ao login, ou ao recebimento das notificações, é possível,<label> além de salvar as notificações no celular.</label></p>
+			<a class="btn" href="#">Leia mais<span> </span></a>
+		</div>
+		<div class="top-grid">
+			<a class="icon3" href="#"><span> </span> </a>
+			<h3>Gratuito</h3>
+			<p>O sistema é gratuito,<label> portanto, pode ser baixado e instalado sem custo.</label></p>
+			<a class="btn" href="#">Leia mais<span> </span></a>
+		</div>
+		<div class="clear"> </div>
+	</div>
+	</div>
+	<!---//End-top-grids----->
+	<!---start-mid-grids----->
+	<div class="mid-grids" id="about">
+		<div class="mid-grid-top">
+		<div class="wrap">
+			<div class="mid-grid-top-pic">
+			</div>
+			<div class="mid-grid-top-info">
+				<h3>Saiba mais sobre o NotiUFG</h3>
+				<p>A partir de uma interface amigável, é possível visualizar as notificações, que possuem hora e data em que foram enviadas, além do usuário que enviou,
+				além de configurar facilmente quais os rementes de seu interesse, para que não sofra spam em seu celular.</p> 
+			</div>
+			<div class="clear"> </div>
+		</div>
+		</div>
+		<div class="mid-grids-bottom" id="contact">
+			<div class="wrap">
+				<h3>Envie seu e-mail e seja avisado quando o aplicativo NotiUFG estiver disponível !</h3>
+				<form>
+					<input type="text" class="textbox" value="Your email plase?" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your email plase?';}"><input type="submit" value="Send" />
+				</form>
+			</div>
+		</div>
+	<!---//End-mid-grids----->
+	<!---start-footer----->
+	<div class="footer">
+		<div class="wrap">
+			<p>Layout criado pela <a href="http://w3layouts.com/">W3layouts</a></p>
+			<p>Foi apenas customizado</p>
+			<script type="text/javascript">
+			$(document).ready(function() {
+				/*
+				var defaults = {
+		  			containerID: 'toTop', // fading element id
+					containerHoverID: 'toTopHover', // fading element hover id
+					scrollSpeed: 1200,
+					easingType: 'linear' 
+		 		};
+				*/
+				
+				$().UItoTop({ easingType: 'easeOutQuart' });
+				
+			});
+		</script>
+    <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
+		</div>
+		</div>
+	</div>
+	<!---//End-footer----->
+<!---//End-wrap---->
 </body>
 </html>
