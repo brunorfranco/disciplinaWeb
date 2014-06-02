@@ -115,23 +115,23 @@ body{
 	margin-right:5px;
 }
 .info-btns ul li:first-child a{
-	width: 180px;
+	width: 150px;
 	height: 53px;
 	display: block;
-	background: url(../images/img-sprit.png) no-repeat #F2F4F5 -172px -879px;
+	background: url(../images/macImage.png) no-repeat;
 }
 .info-btns ul li:nth-child(2) a{
-	width: 180px;
-	height: 59px;
+	width: 220px;
+	height: 85px;
 	display: block;
-	background: url(../images/en_generic_rgb_wo_60.png) no-repeat ;
+	background: url(../images/googleIcon.jpg) no-repeat ;
 }
 
 .info-btns ul li:nth-child(3) a{
-	width: 180px;
-	height: 59px;
+	width: 250px;
+	height: 65px;
 	display: block;
-	background: url(../images/logo-windows-phone-8.png) no-repeat ;
+	background: url(../images/windowsImage2.png) no-repeat ;
 }
 .info-btns{
 	margin-top: 1.3em;
